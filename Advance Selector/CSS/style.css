@@ -1,0 +1,19 @@
+/* Css file */
+
+/* Descendant Selector */
+.grandparent .pen {
+ 
+color: orange;
+}
+
+/* Direct_Child_Selector */
+.grandparent >.parent >.child {
+
+    background-color:red;
+}
+
+/* Adjecent_Silbling */
+.all h2 + p{
+      color: greenyellow;
+}
+
